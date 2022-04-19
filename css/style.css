@@ -1,0 +1,17 @@
+p {
+    margin-top: 70px;
+    margin-left: 50px;
+}
+
+#imagem {
+    position: relative;
+    left: 0px;
+    width: 150px;
+    height: 100px;
+ }
+
+ .imagem {
+    position: absolute;
+    width: 150px;
+    height: 100px;
+ }
