@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+
+}
+#container{
+    margin: 0 auto;
+    width: 1050px;
+    height:616 px;
+  
+}
+
+#banner{
+    width: 80%;
+    height: 178px;
+    margin: 0 auto;
+    background:#000;
+    color: #fff;
+}
+
+#link{
+    width: 150px;
+    height: 800px;
+    margin-left: 104px;
+}
+#texto{
+    width:685px;
+    height: 800px;
+    margin-top: -800px;
+    margin-left: 260px;
+    background: gray;
+
+}
+  
+
+#footer {
+    width: 79.5%;
+    height: 50px;
+    margin: 0 auto 200;
+    text-align: center;
+    border: solid;
+    color: red;
+   }
+
+#img_doacao {
+    width: 100%;
+    height: 178px;
+
+}
+
+#img{
+    width: 150px;
+    height: 100px;
+    margin-left: 240px;
+    margin-top: 100px;
+    border: solid;
+}
+
+.texto_titulo {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 25px;
+}
+
+.paragrafo {
+    margin: 20px;
+    text-align: justify;
+    font-size: 16px;
+}
+
+.requisitos {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 25px;
+}
+
+.lista {
+    margin: 25px;
+    text-align: justify;
+    font-size: 16px;
+}
+
+.video {
+    align-items: center;
+    margin-left: 130px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 30px;
+}
+
+.menu_nomes {
+    text-align: center;
+    margin-top: 30px;
+    text-decoration: none;
+    color: #000;
+}
+
+.banner_lateral {
+    width: 100%;
+    height: 60%;
+    margin-top: 70px;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 15px;
+}
