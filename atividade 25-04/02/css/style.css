@@ -17,11 +17,30 @@
     background-color: aqua;
 }
 
+.img_banner {
+    width: 100%;
+    height: 60vh;
+}
+
 .botoes {
     width: 16vw;
     height: 80vh;
     background-color: blueviolet;
     text-align: center;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 30px;
+}
+
+.menu_nomes {
+    text-align: center;
+    margin-top: 30px;
+    text-decoration: none;
+    color: #000;
 }
 
 .itens {
