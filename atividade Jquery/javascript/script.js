@@ -1,4 +1,4 @@
-$("#p1").text("Seu nome na cor vermelha").attr("color", "red");
+$("#p1").text("Seu nome na cor vermelha");
 
 $("#p2").text("E-mail na cor azul");
 
