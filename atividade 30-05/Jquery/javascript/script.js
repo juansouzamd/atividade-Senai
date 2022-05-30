@@ -15,10 +15,25 @@
 //     $("p").text($("#txt").val());        
 //         });
 
-$("#txt").keyup(function(){
-    $("#p1").text($("#txt").val());
-    $("#p2").text("");    
-    })
-    .keydown(function(){
-    $("#p2").text("tecla pressionada");
-    });
+// $("#txt").keyup(function(){
+//     $("#p1").text($("#txt").val());
+//     $("#p2").text("");    
+//     })
+//     .keydown(function(){
+//     $("#p2").text("tecla pressionada");
+//     });
+
+// $(document).ready(function(){
+
+//     $("input:text").focus(function(){
+    
+//     $("p").text("Cursor está dentro da caixa de texto");
+    
+//     })
+    
+//     .blur(function(){
+    
+//     $("p").text("Cursor deixou a caixa de texto");    
+//     });
+    
+//     });
