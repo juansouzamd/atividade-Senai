@@ -8,7 +8,7 @@
 .container {
     margin: 0 auto;
     width: 70vw;
-    background-color: red;
+    background-color: #B7C5D6;
 }
 
 .banner {
@@ -25,8 +25,9 @@
 .botoes {
     width: 16vw;
     height: 80vh;
-    background-color: blueviolet;
     text-align: center;
+    background-color: #8FA3B2;
+    font-weight: bold;
 }
 
 .menu {
@@ -41,6 +42,22 @@
     margin-top: 30px;
     text-decoration: none;
     color: #000;
+    text-decoration: underline;
+}
+
+.texto {
+    color: white;
+}
+
+.titulo {
+    font-size: 30px;
+    text-align: center;
+    margin: 30px 0;
+}
+
+.paragrafo {
+    margin: 0 15px;
+    text-align: justify;
 }
 
 .itens {
@@ -50,7 +67,7 @@
 
 .texto {
     width: 52vw;
-    background-color: greenyellow;
+    background-color: #4A515B;
     text-align: center;
     
 }
@@ -64,25 +81,20 @@
 .video01 {
     width: 18vw;
     height: 28vh;
-    
-    background-color: pink;
 }
 
 .video02 {
     width: 18vw;
     height: 28vh;
-    background-color: yellow;
 }
 
 
 .video03 {
     width: 18vw;
     height: 28vh;
-    background-color: green;
 }
 
 .video04 {
     width: 18vw;
     height: 28vh;
-    background-color: gray;
 }
