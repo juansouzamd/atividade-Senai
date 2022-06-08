@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja de games</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand text-white" href="#">Loja de Games</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active text-white" aria-current="page" href="#">Jogos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">Computadores</a>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">Lançamentos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">Destaques</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Busque aqui" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Procurar</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <main>
+        <form class="form-alinhamento">
+            <label for="nomesobrenome"> Nome e Sobrenome </label>
+            <input type="text" id="nomesobrenome" class="input-padrao" required>
+
+            <label for="E-mail"> E-mail </label>
+            <input type="email" id="E-mail" class="input-padrao" required placeholder="seuemail@dominio.com">
+
+            <label for="Telefone"> Telefone </label>
+            <input type="tel" id="Telefone" class="input-padrao" required placeholder="(xx) xxxxx - xxxx">
+
+            <label for="Mensagem"> Mensagem </label>
+            <textarea cols="65" rows="10" id="Mensagem" class="input-padrao" required> </textarea>
+
+            <fildset>
+                <legend> Como prefere nosso contato? </legend>
+                <label for="radio-E-mail"> <input type="radio" name="Contato" value="E-mail" id="radio-E-mail"> E-mail
+                </label>
+
+                <label for="radio-Telefone"> <input type="radio" name="Contato" value="Telefone" id="radio-Telefone">
+                    Telefone </label>
+
+                <label for="radio-Whatsapp"> <input type="radio" name="Contato" value="Whatsapp" id="radio-Whatsapp"
+                        checked> Whatsapp </label>
+            </fildset>
+
+            <fildset>
+                <legend> Qual horário prefere ser atendido? </legend>
+                <select>
+                    <option> Manhã </option>
+                    <option> Tarde </option>
+                    <option> Noite </option>
+                </select>
+            </fildset>
+
+            <label class="checkbox"> <input type="checkbox" checked> Gostaria de receber nossas novidades por e-mail?
+            </label>
+
+            <input type="submit" value="Enviar Formulário" class="enviar">
+        </form>
+
+    </main>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
