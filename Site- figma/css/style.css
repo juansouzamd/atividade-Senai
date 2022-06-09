@@ -1,6 +1,52 @@
-form {
-	margin: 40px 0;
+*{
+padding: 0;
+margin: 0;
+font-family: sans-serif;
+background-color: #303030;
+}
+
+.menu {
+	display: flex;
+	justify-content: space-around;
+	background-color: #3F3C3C;
+}
+
+.imagem {
+	width: 150px;
+	background-color: #3F3C3C;
+}
+
+.menu-links {
+	font-size: 30px;
+	display: flex;
+	justify-content: center;
 	text-align: center;
+	text-decoration: none;
+	align-items: center;
+	background-color: #3F3C3C;
+}
+
+.links {
+	margin-right: 15px;
+	text-decoration: none;
+	color: #345AAD;
+	font-weight: bold;
+	font-style: italic;
+	background-color: #3F3C3C;
+}
+
+.contato {
+	text-align: center;
+	font-weight: bold;
+	padding-top: 50px;
+	background-color: #303030;
+	color: white;
+}
+
+form {
+	padding: 40px 0;
+	text-align: center;
+	color: white;
 }
 
 form label, form legend {
@@ -13,7 +59,7 @@ form label, form legend {
 	display: inline;
 	margin: 0 0 20px;
 	padding: 10px 80px;
-	width: 50%;
+	width: 30%;
 	text-align: center;
 }
 
@@ -22,9 +68,9 @@ form label, form legend {
 }
 
 .enviar {
-	width: 40%;
+	width: 20%;
 	padding: 15px 0;
-	background: orange;
+	background: #345AAD;
 	color: white;
 	font-size: 18px;
 	font-weight: bold;
@@ -35,6 +81,6 @@ form label, form legend {
 }
 
 .enviar:hover {
-	background: darkorange;
+	background: #345AAD;
 	transform: scale(1.2);
 }
